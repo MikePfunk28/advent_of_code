@@ -23,3 +23,6 @@ I used numpy to turn the list into an array, and then I used numpy diff to creat
 list of differences.  Once I had the list of differences, I could compare to make sure
 they were all decreasing or increasing.  Numpy was much easier obviously, but the logic works for both.
 
+LeetCode - Problem 1 - Two Sums - find the sums that add up to the target.  So in a list you need to see if any values when added, add up to the target.  This was actually pretty easy, and could likely be done in many easiers ways.  I need to iterate on it, and think about the logic, I think you could do it similar to how you would a rolling window.  
+
+Refactored Two Sums - I knew I could refactor this to be cleaner, but I never expected to get the fastest time on this.  Essentially you are just enumerating the values in a for loop, making a dictionary or hash table.  In this case you subtract the current value from the target value to then have a simple check if this is it or not.  Its actually more intuitive than you would think.
