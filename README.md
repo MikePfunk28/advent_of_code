@@ -26,3 +26,16 @@ they were all decreasing or increasing.  Numpy was much easier obviously, but th
 LeetCode - Problem 1 - Two Sums - find the sums that add up to the target.  So in a list you need to see if any values when added, add up to the target.  This was actually pretty easy, and could likely be done in many easiers ways.  I need to iterate on it, and think about the logic, I think you could do it similar to how you would a rolling window.  
 
 Refactored Two Sums - I knew I could refactor this to be cleaner, but I never expected to get the fastest time on this.  Essentially you are just enumerating the values in a for loop, making a dictionary or hash table.  In this case you subtract the current value from the target value to then have a simple check if this is it or not.  Its actually more intuitive than you would think.
+
+
+LeetCode AddNums:
+
+This was a very interesting problem because right off the bat you think adding integers is easy, well not so much.
+
+They tell you essentially off the bat with typing that you are using a singly linked-list.  So I created a dummy list to store the answer, and then a carry over which starts at zero.  Just like old school math, you use the carry over to represent the digit to carry and add to the next numbers.
+
+So you first check if there is a value, and if there is return it, otherwise return zero.  I used a what resembles a list comprehension but is a ternary operator.  Then you add the numbers, plus the carry, which will be zero on the first.  Due to integer division we need to calculate the remainder and carry separately.  We add the numbers, we calculate the carry by dividing by 10, and we calc the remainder by modulo 10.
+
+We are going through both lists at the same time, and, which is the current node, and then we move to current.next.  Current is a ListNode, which is the node class that defines a node, which is a value and a pointer.  current.next = ListNode(val) we create a new ListNode with the sum value, then you set next pointer which is pointer at current, to the new node.  So dummy list looks like [], [7] right now, the next pointer is used to link the value.  Linked-Lists allow you to be able to point to different values without moving the memory.  Now current will append to the list.
+
+Using Python lists, this whole problem is counter-intuitive, as python lists are Dynamic Arrays.  In a normal linked list, you need to traverse through the list to get the next value, as they are stored separately in memory, not contiguously like in arrays.  Finally we move to current.next, and we update the l1, and l2 pointers to point to the new node.  Which is l1.next, unless there is no value then return none.  Then we loop through checking if there is another digit, we add it, create the new node, have the pointer change to point to it, update the pointers and move on down l1, and l2.
