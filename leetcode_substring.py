@@ -20,7 +20,6 @@ class Solution2:
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         max_length = 0
-        max_substring = ""
         window = set()
         i = 0
         j = 0
@@ -34,8 +33,7 @@ class Solution:
                 i += 1
             if len(window) > max_length:
                 max_length = len(window)
-                max_substring = "".join(window)
-        return len(max_substring)
+        return max_length
 
 
 s = Solution()

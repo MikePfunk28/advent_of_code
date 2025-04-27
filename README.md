@@ -44,8 +44,8 @@ Using Python lists, this whole problem is counter-intuitive, as python lists are
 LeetCode - Sliding Window -
 
 
-I really want to see if I can get this one faster.  I am sure there is something I am not seeing.  LeetCode Sliding Window problem.  These are all pretty interesting, and one issue I was having was at first I used a set, and it came back with all non duplicates.  That was clearly wrong, (can't test for dupes in the set) however a python set definitely can be utilized, we are also going to have to use join() method to join the strings in the max_substring list.  "".join(window).  Now I am wondering where can I optimize this, and feel like maybe using the set, was unnecessary.
+I really want to see if I can get this one faster.  I am sure there is something I am not seeing.  LeetCode Sliding Window problem.  These are all pretty interesting, and one issue I was having was at first I used a set, and it came back with all non duplicates.  That was clearly wrong, however a python set definitely can be utilized, we are also going to have to use join() method to join the strings in the max_substring list.  "".join(window).
 
 
 
-I made the window sliding, so I would check if it was in the new list, and if it was I wouldn't add it, and that would also be a dupe, so I would stop there.  I would only replace max substring, when the window was larger.  Then as soon as the max_substring was larger than the current max, it replaces it and returns max_substring.  The window keeps updating as you go, I used i and j as the indices, and I used k as the length of the string, s.
+I made the window sliding, so I would check if it was in the new list, and by adding it to the window the window gets larger.  Then we just need to remove it from the window to make it smaller and decrease the window size.    Then just make sure your max length is updated if it is larger than the current max.  The window keeps updating as you go, I used i and j as the indices, and I used k as the length of the string, s.  Adding one character at a time, allows us to add or remove and item and track the size.
