@@ -1,0 +1,84 @@
+2025-06-05 21:57:50,334 __main__ INFO: Finding longest palindrome in string of length 5
+2025-06-05 21:57:50,335 __main__ INFO: Algorithm completed in 0.00014 seconds
+2025-06-05 21:57:50,335 __main__ INFO: Found palindrome: 'bab' with length 3
+2025-06-05 21:57:50,335 __main__ INFO: Finding longest palindrome in string of length 4
+2025-06-05 21:57:50,335 __main__ INFO: Algorithm completed in 7.5e-05 seconds
+2025-06-05 21:57:50,335 __main__ INFO: Found palindrome: 'bb' with length 2
+2025-06-05 21:57:50,335 __main__ INFO: Finding longest palindrome in string of length 135
+2025-06-05 21:57:50,335 __main__ INFO: Algorithm completed in 8.6e-05 seconds
+2025-06-05 21:57:50,335 __main__ INFO: Found palindrome: 'abbaabba' with length 8
+2025-06-05 21:58:09,395 __main__ INFO: Finding longest palindrome in string of length 5
+2025-06-05 21:58:09,395 __main__ INFO: Algorithm completed in 0.00011 seconds
+2025-06-05 21:58:09,395 __main__ INFO: Found palindrome: 'bab' with length 3
+2025-06-05 21:58:09,395 __main__ INFO: Finding longest palindrome in string of length 4
+2025-06-05 21:58:09,395 __main__ INFO: Algorithm completed in 5.4e-05 seconds
+2025-06-05 21:58:09,395 __main__ INFO: Found palindrome: 'bb' with length 2
+2025-06-05 21:58:09,395 __main__ INFO: Finding longest palindrome in string of length 135
+2025-06-05 21:58:09,395 __main__ INFO: Algorithm completed in 5e-05 seconds
+2025-06-05 21:58:09,395 __main__ INFO: Found palindrome: 'abbaabba' with length 8
+2025-06-05 23:00:54,578 tcpserver 192.168.0.1     fbloggs  WARNING: Protocol problem: connection reset
+2025-06-05 23:01:18,608 tcpserver 192.168.0.1     fbloggs  WARNING: Protocol problem: connection reset
+2025-06-05 23:01:20,664 tcpserver 192.168.0.1     fbloggs  WARNING: Protocol problem: connection reset
+2025-06-05 23:01:49,307 __main__ 192.168.0.1     fbloggs  WARNING: Protocol problem: connection reset
+2025-06-05 23:03:40,785 __main__ INFO: Started
+2025-06-05 23:03:40,785 __main__ INFO: Finding longest palindrome in string of length 5
+2025-06-05 23:03:40,785 __main__ INFO: Algorithm completed in 4.1e-05 seconds
+2025-06-05 23:03:40,785 __main__ INFO: Found palindrome: 'bab' with length 3
+2025-06-05 23:03:40,785 __main__ INFO: Finished 0:00:00.000041
+2025-06-05 23:03:40,785 __main__ INFO: Started
+2025-06-05 23:03:40,785 __main__ INFO: Finding longest palindrome in string of length 4
+2025-06-05 23:03:40,786 __main__ INFO: Algorithm completed in 2.5e-05 seconds
+2025-06-05 23:03:40,786 __main__ INFO: Found palindrome: 'bb' with length 2
+2025-06-05 23:03:40,786 __main__ INFO: Finished 0:00:00.000025
+2025-06-05 23:03:40,786 __main__ INFO: Started
+2025-06-05 23:03:40,786 __main__ INFO: Finding longest palindrome in string of length 135
+2025-06-05 23:03:40,786 __main__ INFO: Algorithm completed in 4.8e-05 seconds
+2025-06-05 23:03:40,786 __main__ INFO: Found palindrome: 'abbaabba' with length 8
+2025-06-05 23:03:40,786 __main__ INFO: Finished 0:00:00.000048
+2025-06-05 23:05:03,389 __main__ INFO: Started {start}
+2025-06-05 23:05:03,389 __main__ INFO: Finding longest palindrome in string of length 5
+2025-06-05 23:05:03,389 __main__ INFO: Algorithm completed in 4.4e-05 seconds
+2025-06-05 23:05:03,389 __main__ INFO: Found palindrome: 'bab' with length 3
+2025-06-05 23:05:03,389 __main__ INFO: Finished 0:00:00.000044
+2025-06-05 23:05:03,389 __main__ INFO: Finding longest palindrome in string of length 4
+2025-06-05 23:05:03,389 __main__ INFO: Algorithm completed in 6.7e-05 seconds
+2025-06-05 23:05:03,389 __main__ INFO: Found palindrome: 'bb' with length 2
+2025-06-05 23:05:03,389 __main__ INFO: Finished 0:00:00.000067
+2025-06-05 23:05:03,389 __main__ INFO: Finding longest palindrome in string of length 135
+2025-06-05 23:05:03,389 __main__ INFO: Algorithm completed in 5.6e-05 seconds
+2025-06-05 23:05:03,389 __main__ INFO: Found palindrome: 'abbaabba' with length 8
+2025-06-05 23:05:03,389 __main__ INFO: Finished 0:00:00.000056
+2025-06-05 23:05:52,007 __main__ INFO: Started 2025-06-05 23:05:52.007315
+2025-06-05 23:05:52,007 __main__ INFO: Finding longest palindrome in string of length 5
+2025-06-05 23:05:52,007 __main__ INFO: Algorithm completed in 6.1e-05 seconds
+2025-06-05 23:05:52,007 __main__ INFO: Found palindrome: 'bab' with length 3
+2025-06-05 23:05:52,007 __main__ INFO: Finished 0:00:00.000061
+2025-06-05 23:05:52,007 __main__ INFO: Started 2025-06-05 23:05:52.007779
+2025-06-05 23:05:52,007 __main__ INFO: Finding longest palindrome in string of length 4
+2025-06-05 23:05:52,007 __main__ INFO: Algorithm completed in 2.8e-05 seconds
+2025-06-05 23:05:52,007 __main__ INFO: Found palindrome: 'bb' with length 2
+2025-06-05 23:05:52,007 __main__ INFO: Finished 0:00:00.000028
+2025-06-05 23:05:52,008 __main__ INFO: Started 2025-06-05 23:05:52.008023
+2025-06-05 23:05:52,008 __main__ INFO: Finding longest palindrome in string of length 135
+2025-06-05 23:05:52,008 __main__ INFO: Algorithm completed in 4.5e-05 seconds
+2025-06-05 23:05:52,008 __main__ INFO: Found palindrome: 'abbaabba' with length 8
+2025-06-05 23:05:52,008 __main__ INFO: Finished 0:00:00.000045
+2025-06-05 23:07:51,218 __main__ INFO: Started 2025-06-05 23:07:51.218362
+2025-06-05 23:07:51,218 __main__ INFO: Finding longest palindrome in string of length 5
+2025-06-05 23:09:15,249 __main__ INFO: Started 2025-06-05 23:09:15.249165
+2025-06-05 23:09:35,421 __main__ INFO: Started 2025-06-05 23:09:35.421685
+2025-06-05 23:09:35,421 __main__ INFO: Started 2025-06-05 23:09:35.421830
+2025-06-05 23:09:35,421 __main__ INFO: Finding longest palindrome in string of length 5
+2025-06-05 23:09:35,421 __main__ INFO: Algorithm completed in 3e-05 seconds
+2025-06-05 23:09:35,421 __main__ INFO: Found palindrome: 'bab' with length 3
+2025-06-05 23:09:35,422 __main__ INFO: Finished 0:00:00.000030
+2025-06-05 23:09:35,422 __main__ INFO: Started 2025-06-05 23:09:35.422156
+2025-06-05 23:09:35,422 __main__ INFO: Finding longest palindrome in string of length 4
+2025-06-05 23:09:35,422 __main__ INFO: Algorithm completed in 4e-05 seconds
+2025-06-05 23:09:35,422 __main__ INFO: Found palindrome: 'bb' with length 2
+2025-06-05 23:09:35,422 __main__ INFO: Finished 0:00:00.000040
+2025-06-05 23:09:35,422 __main__ INFO: Started 2025-06-05 23:09:35.422470
+2025-06-05 23:09:35,422 __main__ INFO: Finding longest palindrome in string of length 135
+2025-06-05 23:09:35,422 __main__ INFO: Algorithm completed in 4.8e-05 seconds
+2025-06-05 23:09:35,422 __main__ INFO: Found palindrome: 'abbaabba' with length 8
+2025-06-05 23:09:35,422 __main__ INFO: Finished 0:00:00.000048

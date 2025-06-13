@@ -20,5 +20,5 @@ print(fizzBuzz(85))  # Should print "Buzz"
 
 # Add debugging for hidden test cases
 print("\nTesting hidden cases:")
-for i in range(1, 8):  # Test cases 0-7
+for i in range(1, 100):  # Test cases 0-7
     print(f"Test case {i}: {fizzBuzz(i)}")

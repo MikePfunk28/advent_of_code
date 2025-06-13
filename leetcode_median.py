@@ -55,4 +55,4 @@ mysolution = Solution()
 
 print(mysolution.findMedianSortedArrays([1, 3], [2]))  # Output: 2.00000
 # Output: [1, 4, 7, 6, 2, 3, 5, 9, 3, 7, 3, 3, 8, 6]
-print(mysolution.add_arr(mysolution.nums1, mysolution.nums2))
+print(mysolution.extend_arr(mysolution.nums1, mysolution.nums2))
