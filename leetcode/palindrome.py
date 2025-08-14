@@ -33,10 +33,6 @@ if __name__ == "__main__":
 # Finally s needed to be a string literal.
 class Solution2(object):
     def longestPalindrome2(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
         res = 0
         resLen = 0
         for i in range(len(s)):
@@ -59,3 +55,7 @@ class Solution2(object):
                 l -= 1
                 r += 1
         return res
+
+if __name__ == "__main__":
+    s = Solution2()
+    print(s.longestPalindrome2("ac"))
