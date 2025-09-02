@@ -1,6 +1,6 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-
+        # Check if the integer is a palindrome by converting to string
         if str(x) == str(x)[::-1]:
             return True
         return False
